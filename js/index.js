@@ -22,6 +22,7 @@ var capturing = true;
 
 function btnClicked(e) {
     var n = (prompt("Enter a number"));
+   getFibonacci(n); 
 }
 
 btn.addEventListener('click', btnClicked, capturing);
